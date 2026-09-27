@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #14151d;
+  color: #f0f0ec;
+  font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+::selection {
+  background: #c6ff3d;
+  color: #14151d;
+}
